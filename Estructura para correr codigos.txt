@@ -1,0 +1,9 @@
+Estructura para generar los modelos necesarios y utilizar el aplicativo descrito en el documento, 
+En el repositorio se cuentan con 6 códigos, 
+
+El código 0, es un modelo pre entrenado ya listo par asarse a partir de la instalación de la librería necesaria, DeepFace.
+El código 1, es el aplicativo que recolecta los videos con todas las etiquetas necesarias para posteriormente extraerlas (dadas por el usuario y extraídas), la etiqueta estimada es en tiempo real que se da a partir de métricas de distancia, una vez ya recolectados los videos.
+El código 2, se procede a el preprocesamiento de todos los videos y etiquetado manual por parte de los usuarios. 
+El código 3, es el entrenamiento de la red neuronal convolucional pero los parámetros varían y se escoge los mejores por modelo por ello se adjunta el archivo, Resultados_Matriz_confusion.xlsx con los modelos resultantes VF_0 y VF_2, y el ensamble, igualmente la estructura de cada red definida.
+El código 4, genera el modelo de bandido multibrazo y toda su estructura por medio de las etiquetas dadas por el usuario.
+El código 5, es el aplicativo final que clasifica la emoción de la persona recomienda la canción apropiada y pide feedback, guarda todos los datos correspondientes y va mejorando a medida que se usa.
